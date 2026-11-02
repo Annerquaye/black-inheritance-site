@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <!-- Monochrome symbol sprite. Line drawings after Adinkra forms, simplified for small sizes.
+       Use: <svg class="sym"><use href="assets/symbols.svg#adinkrahene"/></svg> -->
+
+  <!-- Brand mark: a lozenge split by a single vertical line (weave + truth/plumb line) -->
+  <symbol id="mark" viewBox="0 0 100 100">
+    <g fill="none" stroke="currentColor" stroke-width="6" stroke-linejoin="miter">
+      <path d="M50 6 L94 50 L50 94 L6 50 Z"/>
+      <path d="M50 6 V94"/>
+      <path d="M28 28 L50 50 L28 72"/>
+    </g>
+  </symbol>
+
+  <!-- Adinkrahene: concentric circles. Leadership, greatness -->
+  <symbol id="adinkrahene" viewBox="0 0 100 100">
+    <g fill="none" stroke="currentColor" stroke-width="3">
+      <circle cx="50" cy="50" r="44"/>
+      <circle cx="50" cy="50" r="30"/>
+      <circle cx="50" cy="50" r="16"/>
+    </g>
+  </symbol>
+
+  <!-- Nkyinkyim: the twisting path. Initiative, adaptability -->
+  <symbol id="nkyinkyim" viewBox="0 0 100 100">
+    <g fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="miter">
+      <polyline points="30,6 70,22 30,38 70,54 30,70 70,86 30,96"/>
+      <polyline points="44,6 84,22 44,38 84,54 44,70 84,86 44,96" opacity=".45"/>
+    </g>
+  </symbol>
+
+  <!-- Eban: the fence. Security, care for what is held -->
+  <symbol id="eban" viewBox="0 0 100 100">
+    <g fill="none" stroke="currentColor" stroke-width="3">
+      <rect x="8" y="8" width="84" height="84"/>
+      <rect x="30" y="30" width="40" height="40"/>
+      <path d="M8 30 H30 M70 30 H92 M8 70 H30 M70 70 H92 M30 8 V30 M70 8 V30 M30 70 V92 M70 70 V92"/>
+    </g>
+  </symbol>
+
+  <!-- Nsoromma: child of the heavens (star). Guardianship, patronage -->
+  <symbol id="nsoromma" viewBox="0 0 100 100">
+    <g fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="miter">
+      <circle cx="50" cy="50" r="12"/>
+      <path d="M50 4 L58 38 L92 30 L64 50 L92 70 L58 62 L50 96 L42 62 L8 70 L36 50 L8 30 L42 38 Z"/>
+    </g>
+  </symbol>
+
+  <!-- Arrow used in lists -->
+  <symbol id="arrow" viewBox="0 0 24 24">
+    <path d="M4 12 H20 M14 6 L20 12 L14 18" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  </symbol>
+</svg>
